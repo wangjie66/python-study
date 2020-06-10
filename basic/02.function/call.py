@@ -1,0 +1,8 @@
+print(abs(-23))
+print(max(-2,3))
+print(int(-2.9223))
+print(str(-2.9223))
+print(bool(-2.9223))
+print(bool())
+print(bool(None))
+print(bool(''))
