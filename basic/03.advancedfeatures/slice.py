@@ -30,9 +30,11 @@ def trim(s):
         else :
             break
     s = s[i::1] ;
-    for n in s :
-
-    c = s[:-1:1] ;
+    c = len(s)
+    while(c>0):
+        c = c- 1
+        if s[-1] == ' ':
+            s=s[:len(s)-2]
     return s
 
 if trim('hello  ') != 'hello':
