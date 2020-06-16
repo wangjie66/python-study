@@ -10,3 +10,6 @@ print(len('中午'.encode('utf-8')))
 
 print('hello,%s,%s' % ('wj','this is a test.') )
 print('%d%%'% (23))
+
+import os
+print(os.path)
