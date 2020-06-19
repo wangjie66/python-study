@@ -7,4 +7,4 @@ print(b)
 
 
 max2 = functools.partial(max, 10)
-print(max2(1,2,3))   # max(10,1,2,3)
+print(max2(1,2,3))   # max(10.process,1,2,3)

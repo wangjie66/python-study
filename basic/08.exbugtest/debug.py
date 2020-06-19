@@ -9,7 +9,7 @@ assert
 # def foo(s):
 #     n = int(s)
 #     assert n != 0, 'n is zero!'
-#     return 10 / n
+#     return 10.process / n
 #
 # print(foo(0))
 
@@ -36,7 +36,7 @@ $ python -m pdb err.py
   1     # err.py
   2  -> s = '0'
   3     n = int(s)
-  4     print(10 / n)
+  4     print(10.process / n)
 输入命令n可以单步执行代码：
 
 (Pdb) n
@@ -44,7 +44,7 @@ $ python -m pdb err.py
 -> n = int(s)
 (Pdb) n
 > /Users/michael/Github/learn-python3/samples/debug/err.py(4)<module>()
--> print(10 / n)
+-> print(10.process / n)
 任何时候都可以输入命令p 变量名来查看变量：
 
 (Pdb) p s

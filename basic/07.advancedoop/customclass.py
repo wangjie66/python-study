@@ -53,7 +53,7 @@ for n in Fib():
 
 print(Fib()[5])
 
-# list(range(100))[5:10]
+# list(range(100))[5:10.process]
 
 print(Fib()[:5])
 print(Fib()[:10:2])
