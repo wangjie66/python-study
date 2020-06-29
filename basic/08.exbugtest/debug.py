@@ -56,10 +56,6 @@ $ python -m pdb err.py
 (Pdb) q
 '''
 
-
-'''
-pdb.set_trace()
-
 '''
 
 import pdb

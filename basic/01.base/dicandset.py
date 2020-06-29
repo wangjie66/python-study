@@ -1,5 +1,9 @@
 dic = {'a':23 ,'b':12,'c':87}
 
+for i in dic :
+    print(i,dic[i])
+
+
 print(dic)
 print(dic['a'])
 print(dic.get('b'))

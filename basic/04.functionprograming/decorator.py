@@ -1,5 +1,5 @@
 def now1():
-    print("2020-6-11")
+    print("2020-6-11.patternmatch")
 
 name = now1.__name__
 print(name)
@@ -13,7 +13,7 @@ def log(fn):
 
 @log
 def now2():
-    print("2020-6-11")
+    print("2020-6-11.patternmatch")
 
 now2()
 
@@ -28,7 +28,7 @@ def logp(text):
 
 @logp("haha")
 def now2():
-    print("2020-6-11")
+    print("2020-6-11.patternmatch")
 
 now2()
 print(now2.__name__)
@@ -44,7 +44,7 @@ def log2(func):
 
 @log2
 def now2():
-    print("2020-6-11")
+    print("2020-6-11.patternmatch")
 
 now2()
 print(now2.__name__)
