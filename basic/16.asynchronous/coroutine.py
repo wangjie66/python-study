@@ -4,12 +4,15 @@
 def consumer():
     r = ''
     while True:
-        n = yield r
-        print(n)
+        n1= yield r
+        print(n1)
+        # 这里只是测试后面的语句是否打印 ，真实的返回其实是通过yield，碰到yield就等待
         if not n:
             return
-        print('[CONSUMER] Consuming %s...' % n)
+        print('[CONSUMER] Consuming %s...' % n1)
         r = '200 OK'
+        r = '200 OK1'
+        print('dddd')
 
 def produce(c):
     # 启动生成器
